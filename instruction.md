@@ -79,10 +79,13 @@ If you want a cross-platform credential manager (like on Windows), you can insta
 Install:
 
 brew tap microsoft/git
+
 brew install --cask git-credential-manager-core
+
 Configure Git to use it:
 
 git-credential-manager-core configure
+
 That will update your Git config to use GCM as the credential helper.
 
 ✅ Check what helper is active:
